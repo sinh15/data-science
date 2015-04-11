@@ -1,0 +1,28 @@
+#Check available packages
+> a <- available.packages()
+> head(rownames(a), 3)
+
+#Check if a package is already installed
+> find.package("devtools")
+
+#Install package
+#It also installs any required packages.
+> install.packages("slidify")
+> instal..packages(c("slidify, "ggplot2", "devtools"))
+
+#Install package from Bioconductor
+> source("http://bioconductor.org/biocLite.R")
+> biocLite()   #install basic required
+> biocLite(c("GenomicFeatures", "AnnotationDbi")) #install specific packages
+
+#Load R Packages (required after install)
+> library(ggplot2)
+
+#Functions available
+> library(ggplot2)
+> search()
+
+#---------FULL EXAMPLE---------#
+> install.packages("devtools")
+> library(devtools)
+> find_rtools()

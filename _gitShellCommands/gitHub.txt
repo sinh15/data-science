@@ -1,0 +1,30 @@
+Clone Repo
+git clone https://github.com/sinh15/data-science.git oprofiling
+
+Push Changes
+git add -A                              //add all the new stuff
+git commit -m "msg"                     //attach message to commit
+git push origin master
+
+Pull Changes
+git pull origin master
+
+Delete Repository
+rm -r name
+
+Work With Branches
+http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+Create Branch and swap to it
+git checkout -b iss53           //create and switch to brand
+
+...other option
+git branch iss53               //create branch
+git checkout iss53             //switch to branch
+
+Delete Branch
+git branch -d #branchName       //local
+git push origin :branchName     //remote (from master)
+
+Go Back to MAster
+git checkout master
