@@ -38,5 +38,3 @@ rankhospital <- function(state, outcome, num = "best") {
 #     View(class(rMatrix[, 2]))
     result
 }
-
-## levels <- sort(unique(data[, 7]))
